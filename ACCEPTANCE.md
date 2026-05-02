@@ -10,7 +10,7 @@ Objective: develop a personal health management agent installable in OpenClaw an
 - Reminders: reports include stale/missing BP, lab, and exercise reminders.
 - Weekly/monthly trend charts: `report` returns ASCII charts for BP and exercise series.
 - Easy to use: README, examples, install scripts, and help schema are included.
-- OpenClaw installability: `skill.json`, `.claw/identity.json`, `SKILL.md`, and `.codex-plugin/plugin.json` are included.
+- OpenClaw installability: `skill.json`, `.claw/identity.json`, `SKILL.md`, `openclaw.plugin.json`, and `.codex-plugin/plugin.json` are included.
 - Hermes installability: Hermes-compatible `SKILL.md` frontmatter and `hermes/manifest.yaml` are included.
 - Safety: every handler response includes a medical disclaimer and urgent BP guidance.
 - Verification: run `scripts/verify.sh`.

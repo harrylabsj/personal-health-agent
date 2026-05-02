@@ -21,6 +21,7 @@
     "test": "./scripts/verify.sh"
   },
   "files": [
+    "openclaw.plugin.json",
     ".codex-plugin/plugin.json",
     "skills/",
     "hermes/",

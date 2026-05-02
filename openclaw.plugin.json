@@ -1,0 +1,15 @@
+{
+  "id": "personal-health-agent",
+  "enabledByDefault": true,
+  "activation": {
+    "onStartup": false
+  },
+  "skills": [
+    "./skills"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
