@@ -1,0 +1,39 @@
+{
+  "name": "personal-health-agent",
+  "version": "0.1.0",
+  "description": "A local-first personal health management agent for logging blood pressure, labs, exercise, reminders, and weekly or monthly trends.",
+  "author": {
+    "name": "Harry",
+    "email": "health-agent@example.local",
+    "url": "https://example.local/personal-health-agent"
+  },
+  "license": "MIT",
+  "keywords": [
+    "health",
+    "wellness",
+    "blood-pressure",
+    "blood-labs",
+    "exercise",
+    "reminders",
+    "trends"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Health Agent",
+    "shortDescription": "Log health data and review trends",
+    "longDescription": "Collects local personal health logs such as blood pressure, blood lab markers, exercise, and body metrics. Produces safety-bounded analysis, reminders, and weekly or monthly ASCII trend reports for clinician-ready discussion.",
+    "developerName": "Harry",
+    "category": "Health",
+    "capabilities": [
+      "Local data logging",
+      "Trend analysis",
+      "Reminder generation"
+    ],
+    "defaultPrompt": [
+      "Record today's blood pressure.",
+      "Import my latest blood test markers.",
+      "Create this week's health trend report."
+    ],
+    "brandColor": "#0F766E"
+  }
+}

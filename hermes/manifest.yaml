@@ -1,0 +1,17 @@
+name: personal-health-agent
+display_name: "Personal Health Agent"
+version: "0.1.0"
+category: "health"
+skill_path: "../skills/personal-health-agent"
+entrypoint: "handler.py"
+description: "Local-first personal health logging, analysis, reminders, and weekly/monthly trend reports for Hermes Agent."
+install:
+  target_directory: "~/.hermes/skills/health/personal-health-agent"
+  command: "./scripts/install_hermes.sh"
+runtime:
+  language: "python3"
+  requires_api: false
+  network: false
+  data_env: "PERSONAL_HEALTH_AGENT_DATA_DIR"
+safety:
+  medical_boundary: "Informational wellness support only; no diagnosis, treatment, prescription, or emergency replacement."

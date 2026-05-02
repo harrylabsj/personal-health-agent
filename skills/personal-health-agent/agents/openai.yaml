@@ -1,0 +1,8 @@
+interface:
+  display_name: "Personal Health Agent"
+  short_description: "Track labs, BP, exercise, and trends"
+  brand_color: "#0F766E"
+  default_prompt: "Use $personal-health-agent to record today's blood pressure and summarize this week's health trends."
+
+policy:
+  allow_implicit_invocation: true

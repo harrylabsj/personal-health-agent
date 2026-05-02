@@ -1,0 +1,9 @@
+{
+  "skill": "personal-health-agent",
+  "name": "Personal Health Agent",
+  "type": "health",
+  "version": "0.1.0",
+  "description": "Local-first health logging, analysis, reminders, and trend reports.",
+  "author": "Harry",
+  "created": "2026-05-02"
+}

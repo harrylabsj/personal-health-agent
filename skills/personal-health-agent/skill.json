@@ -1,0 +1,44 @@
+{
+  "name": "personal-health-agent",
+  "displayName": "Personal Health Agent",
+  "version": "0.1.0",
+  "description": "Collect personal health logs, analyze blood pressure, labs, exercise, and produce weekly or monthly trend reports with reminders.",
+  "positioning": "Local-first personal health tracking assistant for OpenClaw and Hermes agent workflows.",
+  "target_users": "Individuals who want easy personal health logging, trend review, and clinician-ready summaries.",
+  "trigger_keywords": [
+    "health log",
+    "blood pressure",
+    "blood test",
+    "lab results",
+    "exercise tracking",
+    "weekly health report",
+    "monthly health trend",
+    "健康管理",
+    "血压",
+    "血检",
+    "运动记录"
+  ],
+  "tags": [
+    "health",
+    "wellness",
+    "blood-pressure",
+    "blood-labs",
+    "exercise",
+    "trend-report",
+    "reminders"
+  ],
+  "language": "zh-CN,en",
+  "contentType": "executable-skill",
+  "entrypoint": "handler.py",
+  "hasExecutableCode": true,
+  "requires_api": false,
+  "network": false,
+  "data_storage": {
+    "default_path": "~/.personal-health-agent/health_records.jsonl",
+    "env_override": "PERSONAL_HEALTH_AGENT_DATA_DIR",
+    "format": "jsonl"
+  },
+  "healthSafety": "Informational wellness support only. Does not diagnose, treat, prescribe, or replace professional medical advice.",
+  "author": "Harry",
+  "license": "MIT"
+}

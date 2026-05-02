@@ -1,0 +1,34 @@
+{
+  "name": "personal-health-agent",
+  "version": "0.1.0",
+  "description": "Local-first personal health management agent for OpenClaw and Hermes Agent.",
+  "type": "commonjs",
+  "private": false,
+  "license": "MIT",
+  "author": "Harry",
+  "keywords": [
+    "openclaw",
+    "hermes-agent",
+    "health",
+    "wellness",
+    "blood-pressure",
+    "blood-labs",
+    "exercise",
+    "reminders",
+    "trends"
+  ],
+  "scripts": {
+    "test": "./scripts/verify.sh"
+  },
+  "files": [
+    ".codex-plugin/plugin.json",
+    "skills/",
+    "hermes/",
+    "scripts/",
+    "README.md",
+    "ACCEPTANCE.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
